@@ -1,0 +1,19 @@
+{
+  "name": "lesson-02",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "prettier": "^2.8.4"
+  },
+  "devDependencies": {
+    "prettier-plugin-tailwindcss": "^0.2.3"
+  },
+  "scripts": {
+    "tailwind": "npx tailwindcss -i ./src/input.css -o ./build/css/style.css --watch",
+    "prettier": "npx prettier --write **/*.html"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
